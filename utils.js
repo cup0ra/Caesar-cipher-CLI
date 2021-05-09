@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+
 const getInput = (value) => {
   return value ? fs.createReadStream(value) : process.stdin;
 };
@@ -37,7 +38,7 @@ const checkOptions = (action, shift, input, output) => {
   }
   if (output) {
     try {
-      fs.accessSync(input, fs.constants.W_OK);
+      fs.accessSync(output, fs.constants.W_OK);
     } catch (err) {
       showError(err);
     }
