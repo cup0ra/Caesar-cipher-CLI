@@ -1,0 +1,27 @@
+{
+  "name": "caesar-cipher-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "inquirer": "^8.0.0",
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "commander": "^7.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cup0ra/Caesar-cipher-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cup0ra/Caesar-cipher-CLI/issues"
+  },
+  "homepage": "https://github.com/cup0ra/Caesar-cipher-CLI#readme"
+}
