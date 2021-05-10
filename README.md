@@ -16,7 +16,7 @@ npm install
 ### Example of use:
 ```javascript
 node index -a encode -s 7 -i "./input.txt" -o "./output.txt"
-node index -a encode -s 7 -i -o "./output.txt"
+node index -a encode -s 7 -o "./output.txt"
 node index -a encode -s 7 -i "./input.txt"
 node index -a encode -s 7
 ```
